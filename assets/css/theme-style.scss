@@ -1,0 +1,21 @@
+$theme-color: #218838;
+$text-color: #707070;
+$bg-color: #dcdddf;
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: $text-color;
+	font-weight: 400;
+}
+
+@import "scss/mixins";
+@import "scss/common";
+@import "scss/button";
+@import "scss/form";
+
+/*
+ * Home Page
+ */
+@import "scss/header";
+@import "scss/footer";

@@ -1,0 +1,16 @@
+label {
+	display: block;
+	margin: 0 0 5px;
+	font-size: 16px;
+}
+
+.form-control:focus {
+	color: $text-color;
+	border-color: $theme-color;
+	box-shadow: none;
+}
+
+div.wpcf7-response-output {
+	margin-left: 0;
+	margin-right: 0;
+}
