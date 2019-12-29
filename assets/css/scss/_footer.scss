@@ -1,0 +1,70 @@
+/*footer area start*/
+
+.footer-widgets {
+	p {
+		color: #fff;
+	}
+
+	a {
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			color: $theme-color;
+			text-decoration: none;
+		}
+	}
+
+	a {
+		display: block;
+	}
+}
+
+.widget-title {
+	text-align: left;
+	color: #fff;
+	margin-bottom: 30px;
+
+	&:after {
+		margin-left: 0;
+		width: 100px;
+	}
+}
+
+.widget {
+	.menu {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			a {
+				padding: 7px 0;
+			}
+		}
+	}
+	@media (max-width: 767px) {
+		& + .widget {
+			margin-top: 30px;
+		}
+	}
+}
+
+.site-footer {
+	padding: 30px;
+	background-color: $theme-color;
+
+	.copyright-text {
+		font-size: 20px;
+		color: #fff;
+
+		a {
+			color: #fff;
+
+			&:hover,
+			&:focus {
+				color: #000;
+			}
+		}
+	}
+}

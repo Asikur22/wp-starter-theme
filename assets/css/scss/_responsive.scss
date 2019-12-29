@@ -1,0 +1,45 @@
+@media (max-width: $first-break-point - 1) {
+	body {
+		.page-title,
+		.section-heading,
+		.contact-info-title,
+		.info-title {
+			font-size: 30px;
+		}
+		
+		.page-subtitle {
+			font-size: 20px;
+		}
+	}
+}
+
+@media (max-width: $second-break-point - 1) {
+	body {
+		.product-carousel .owl-nav {
+			right: 0;
+		}
+		
+		.product-carousel .owl-dots {
+			right: -25px;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.amazon-product-tab {
+		min-height: 315px;
+	}
+}
+
+@media (max-width: 991px) {
+	.primary-menu {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.slicknav_btn,
+	.mobile_menu {
+		display: none;
+	}
+}

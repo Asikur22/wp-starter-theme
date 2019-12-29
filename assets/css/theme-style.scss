@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+$theme-color: #218838;
+$text-color: #707070;
+$bg-color: #DCDDDF;
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: $text-color;
+	font-weight: 400;
+}
+
+@import "scss/mixins";
+@import "scss/common";
+@import "scss/button";
+@import "scss/form";
+
+/*
+ * Home Page
+ */
+@import "scss/header";
+@import "scss/footer";
+=======
+$theme-color: #218838;
+$text-color: #707070;
+$bg-color: #DCDDDF;
+
+$first-break-point: 768px;
+$second-break-point: 992px;
+$third-break-point: 1200px;
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: $text-color;
+	font-weight: 400;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+h2 {
+	color: $theme-color;
+}
+
+@import "scss/mixins";
+@import "scss/button";
+@import "scss/form";
+@import "scss/common";
+
+/* ====================================== Page Home ============================ */
+@import "scss/header";
+@import "scss/footer";
+
+/* ====================================== Page Blog ============================ */
+@import "scss/blog";
+
+@import "scss/responsive";
+>>>>>>> a8107f9eed075d6803dc28447db88aa4125fd3e0
